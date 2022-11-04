@@ -1,0 +1,85 @@
+.logout{
+    min-height: 84vh;
+    padding-top: 20px;
+}
+
+.logout__title{
+    margin-bottom: 50px;
+    display: inline-block;
+    padding-left: 20vw;
+}
+
+.logout__btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+}
+
+.logout__btn{
+    background-color: var(--bg-color-red);
+    color: white;
+    width: 20%;
+    min-width: 70px;
+    font-size: 15px;
+    padding: 10px 0;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.login{
+    width: 100%;
+    height: 84vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F8F8F8;
+    padding: 0 20px;
+}
+.login__form{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    background-color: #fff;
+    border-radius: 1em;
+}
+.login__text{
+    font-weight: 500;
+}
+
+.login__email,
+.login__password{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 16px;
+}
+
+#email,
+#password{
+    width: 100%;
+    height: 40px;
+    border: 2px solid #eee;
+    border-radius: 5px;
+}
+.login__btn{
+    width: 100%;
+    height: 40px;
+    background-color:var(--bg-color-red);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.login__span{
+    color:lightskyblue;
+}
+
+.signup__p{
+text-align: center;
+}

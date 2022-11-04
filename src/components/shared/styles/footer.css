@@ -1,0 +1,56 @@
+.footer__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #f85555;
+    gap: 1rem;
+    position: absolute;
+    width: 100%;
+    z-index: 3000;
+}
+
+.footer__icon{
+    background: #ffffff8b;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    height: 50px;
+    margin: 0 10px;
+    text-decoration: none;
+    width: 50px;
+}
+
+.footer__icon:hover{
+    background: #d72828cd;
+}
+
+.fa-instagram{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e1306c;
+}
+
+.footer__icon:hover .fa-instagram, 
+.footer__icon:hover .fa-linkedin,
+.footer__icon:hover .fa-twitter{
+    transform: scale(1.1);
+    color: white;
+}
+
+.fa-linkedin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0e76a8;
+}
+
+.fa-twitter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00acee;
+}

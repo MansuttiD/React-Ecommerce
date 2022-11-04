@@ -1,0 +1,14 @@
+.product__id-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    margin-top: 2%;
+}
+
+@media (min-width: 1035px) {
+    .product__id-description{
+        flex-direction: row;
+    }
+}
