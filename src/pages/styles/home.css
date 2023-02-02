@@ -1,6 +1,6 @@
 .home{
     width: 100%;
-    min-height: 81.1vh;
+    min-height: calc(100vh - 150px);
     display: flex ;
 }
 

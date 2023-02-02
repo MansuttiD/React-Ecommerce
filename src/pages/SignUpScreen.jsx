@@ -8,7 +8,7 @@ const SignUpScreen = () => {
 
     const { handleSubmit, register, reset } = useForm()
     const submit = data => {
-        const url = 'https://ecommerce-api-react.herokuapp.com/api/v1/users'
+        const url = 'https://e-commerce-api.academlo.tech/api/v1/users'
         axios.post(url, data)
             .then(res => console.log(res.data))
             .catch(err => console.log(err))

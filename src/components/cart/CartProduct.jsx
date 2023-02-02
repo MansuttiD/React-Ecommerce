@@ -8,7 +8,7 @@ import './styles/cartProduct.css'
 const CartProduct = ({product}) => {
 const dispatch = useDispatch()
 const handleDelete = () => {
-        const url = `https://ecommerce-api-react.herokuapp.com/api/v1/cart/${product.id}`
+        const url = `https://e-commerce-api.academlo.tech/api/v1/cart/${product.id}`
         axios.delete(url, getConfig())
         .then(res => {
             console.log(res)

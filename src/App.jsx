@@ -12,23 +12,6 @@ import SignUpScreen from './pages/SignUpScreen'
 
 function App() {
 
-    // useEffect(() => {
-    //   const url = 'https://ecommerce-api-react.herokuapp.com/api/v1/users'
-    //   const data = {
-    //     firstName: "rodrigo",
-    //     lastName: "uribe",
-    //     email: "r@gmail.com",
-    //     password: "pass1234",
-    //     phone: "1234567891",
-    //     role: "admin"
-    // }
-    //   axios.post(url, data)
-    //   .then()
-    //   .catch(err => console.log(err))
-    // }, [])
-
-
-
   return (
     <div className="App">
     <Header/>

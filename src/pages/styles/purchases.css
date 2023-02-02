@@ -1,6 +1,6 @@
 .purchases{
     width: 100%;
-    min-height: 81.9vh;
+    min-height: calc(100vh - 150px);
     padding: 0px 20px;
 }
 
